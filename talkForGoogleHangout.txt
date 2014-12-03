@@ -1,0 +1,47 @@
+## Using resources here:
+http://www.bioconductor.org/developers/how-to/buildingPackagesForBioc/
+
+## And here:
+https://hedgehog.fhcrc.org/users/mcarlson/PkgWranglerEmails/IntroToPackageReviewing.txt
+
+I need to make a short (15 min) presentation followed by a Q/A session on how to make new packages.
+
+## TODO:
+ - make slides from this
+ - find a place to check this in (Martin)?
+ - be ready to test this tomorrow.
+
+
+
+################################################################################
+## Here is my outline for what I plan to cover
+
+- outline the major goals for the Bioconductor project 
+  - universal documentation 
+  - code reuse and the importance of working together
+  - reproducible research
+  - assurance that the package still works as R evolves
+
+
+- Resources for new package authors
+  - package guidelines (show where they can be seen)
+  - primer for new package authors (show where this can be found - next to the other 'how to's for devs)
+  - the support site
+  - the bioc-devel mailing list (for advanced questions)
+
+
+- What do reviewers look for:
+  - BiocCheck
+  - code reuse
+  - good documentation - it's not enough if only three people in the world understand it...
+  - Why do people care abuot how my code looks? (code readability)
+
+- What to do when it's time to submit your package
+  - don't panic
+  - put your packages into a single issue in the tracker (don't create new issues for each submission)
+  - don't create new issues if you need to put up a new tarball (just add a new version bumped tarball to the existing issue)
+
+
+- What package review is for:
+  - To help your package be better/make sure that your package helps to meet the goals of the project
+  - To help you to know more about existing packages in the space (people you should be working with)

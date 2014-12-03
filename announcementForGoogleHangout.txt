@@ -1,0 +1,39 @@
+
+## Using resources here:
+http://www.bioconductor.org/developers/how-to/buildingPackagesForBioc/
+
+## And here:
+https://hedgehog.fhcrc.org/users/mcarlson/PkgWranglerEmails/IntroToPackageReviewing.txt
+
+I need to make a short (15 min) presentation followed by a Q/A session on how to make new packages.
+
+
+
+
+
+## Below is a post that we will use to announce this to the community (support site)?
+
+
+
+## And after some light revisions:
+############################################################################
+
+Hello new package authors,
+
+Based on the number of new software packages being submitted to the project it seems that Bioconductor is more popular than ever.  Last release we added a hundred and ten new packages (a new record).
+
+A lot of the popularity of this project is because Bioconductor packages have to live up to certain minimal standards (Nature Genetics thinks so too, e.g., http://www.nature.com/ng/journal/v46/n1/full/ng.2869.html). For example every Bioconductor package is expected to:
+
+1) provide complete documentation so that new users will know how to use them
+2) contain working examples that are run when the package is checked by the build system so that failure can be detected early.
+3) cooperate with related packages within the project so as to facilitate code reuse and support reproducible research.
+
+We hope you will agree that having such package guidelines is a big win for the whole community.
+
+To help *you* contribute to Bioconductor, we are going to have a Google hangout (on air) to allow you to tune in, listen to some tips from Bioconductor package reviewers and then open up the forum for questions.
+
+Webinar Invitation: Contributing your package to Bioconductor: guidelines and overview
+Date: December 10, 2014
+Time: 8:00 AM PST /11:00 AM  EST
+
+Please 'tune in' December 10th at 8AM PST for a Google Hangout to discuss new package contributions.  And learn how to maximize the value of your package contribution to the Bioconductor community.
