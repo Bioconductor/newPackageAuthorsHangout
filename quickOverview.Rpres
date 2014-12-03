@@ -1,0 +1,43 @@
+Questions and Answers for new Bioconductor package authors
+========================================================
+author: Marc Carlson
+date: December 10th 2014
+
+
+Major goals for the Bioconductor project 
+========================================================
+- universal documentation 
+- code reuse and the importance of working together
+- reproducible research
+- assurance that the package still works as R evolves
+
+
+Resources for new package authors
+========================================================
+- package guidelines (http://www.bioconductor.org/developers/package-guidelines/)
+- primer for new package authors (http://www.bioconductor.org/developers/how-to/buildingPackagesForBioc)
+- the support site (https://support.bioconductor.org/)
+- the bioc-devel mailing list (https://stat.ethz.ch/mailman/listinfo/bioc-devel)
+
+
+What do reviewers look for:
+========================================================
+- BiocCheck (http://www.bioconductor.org/packages/devel/bioc/html/BiocCheck.html)
+- code reuse
+- good documentation - Not good enough if only three people in the world understand it...
+- Why do people care abuot how my code looks? (code readability)
+
+
+
+What package review is for
+========================================================
+- To help your package be better/make sure that your package helps to meet the goals of the project
+- To help you to know more about existing packages in the space (people you should be working with)
+
+
+What to do when it's time to submit your package
+========================================================
+- don't panic - the process is meant to help you.
+- put your packages into a single issue in the tracker (don't create new issues for each submission)
+- don't create new issues if you need to put up a new tarball (just add a new version bumped tarball to the existing issue)
+
