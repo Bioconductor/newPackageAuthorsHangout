@@ -20,6 +20,12 @@ Resources for new package authors
 - the bioc-devel mailing list (https://stat.ethz.ch/mailman/listinfo/bioc-devel)
 
 
+What package review is for
+========================================================
+- To help your package be better/make sure that your package helps to meet the goals of the project
+- To help you to know more about existing packages in the space (people you should be working with)
+
+
 What do reviewers look for:
 ========================================================
 - BiocCheck (http://www.bioconductor.org/packages/devel/bioc/html/BiocCheck.html)
@@ -28,11 +34,12 @@ What do reviewers look for:
 - Why do people care abuot how my code looks? (code readability)
 
 
-
-What package review is for
+Should I publish my academic paper or my package 1st?
 ========================================================
-- To help your package be better/make sure that your package helps to meet the goals of the project
-- To help you to know more about existing packages in the space (people you should be working with)
+- Our svn codebase is public
+- Many journals like if your software is already online
+- Ultimately: you have to check with the specific journals 
+(It's their policies that matter)
 
 
 What to do when it's time to submit your package
