@@ -59,6 +59,5 @@ What to do when it's time to submit your package:
         R CMD build MyPkg
         R CMD check MyPkg_0.99.0.tar.gz
 
-- put your packages into a single issue in the tracker (don't create new issues for each submission)
-- don't create new issues if you need to put up a new tarball (just add a new version bumped tarball to the existing issue)
-
+- put packages into the tracker (https://tracker.bioconductor.org/issue558)
+- don't create extra issues for new tarballs 
