@@ -8,7 +8,8 @@ Before we begin:
 ========================================================
 - Welcome to the 1st Bioconductor Q&A!
 - Please post any questions into the YouTube chat window
-
+- After after this talk, I will be able to answer them
+- There may be a short delay
 
 Major goals for the Bioconductor project:
 ========================================================
@@ -16,23 +17,27 @@ Major goals for the Bioconductor project:
 - Robust software
   - Documented
   - Tested
-  - Available
+  - Freely Available
 - Reproducible research
 - Code reuse and the importance of working together
 
 
-Resources for new package authors:
-========================================================
-- package guidelines (http://bioconductor.org/developers/package-guidelines/)
-- primer for new package authors (http://bioconductor.org/developers/how-to/buildingPackagesForBioc)
-- the support site (https://support.bioconductor.org/)
-- the bioc-devel mailing list (https://stat.ethz.ch/mailman/listinfo/bioc-devel)
-
-
 What is package review for?
 ========================================================
-- To help your package be better/make sure that your package helps to meet the goals of the project
-- To help you to know more about existing packages in the space (people you should be working with)
+- To improve your package/ensure that your package helps to meet the goals of the project
+- To help you to know more about existing packages in the space
+
+
+Resources for new package authors:
+========================================================
+- package guidelines 
+    (http://bioconductor.org/developers/package-guidelines/)
+- primer for new package authors 
+    (http://bioconductor.org/developers/how-to/buildingPackagesForBioc)
+- the support site 
+    (https://support.bioconductor.org/)
+- the bioc-devel mailing list 
+    (https://stat.ethz.ch/mailman/listinfo/bioc-devel)
 
 
 What do reviewers look for?
@@ -59,6 +64,6 @@ What to do when it's time to submit your package:
         R CMD build MyPkg
         R CMD check MyPkg_0.99.0.tar.gz
 
-- put your packages into a single issue in the tracker (don't create new issues for each submission)
-- don't create new issues if you need to put up a new tarball (just add a new version bumped tarball to the existing issue)
+- put your packages into a single issue in the tracker 
+- don't create new issues if you need to put up a new tarball 
 
