@@ -8,8 +8,8 @@ Before we begin:
 ========================================================
 - Welcome to the 1st Bioconductor Q&A!
 - Please post any questions into the YouTube chat window
-- After after this talk, I will be able to answer them
-- There may be a short delay
+- After after a short talk, I will be able to answer them
+
 
 Major goals for the Bioconductor project:
 ========================================================
@@ -24,27 +24,28 @@ Major goals for the Bioconductor project:
 
 What is package review for?
 ========================================================
-- To improve your package/ensure that your package helps to meet the goals of the project
-- To help you to know more about existing packages in the space
+- To improve your package
+- To ensure that your package helps meet the goals of the project
+- To help you to know more about other existing packages/objects
 
 
 Resources for new package authors:
 ========================================================
-- package guidelines 
+- Package guidelines 
     (http://bioconductor.org/developers/package-guidelines/)
-- primer for new package authors 
+- Primer for new package authors 
     (http://bioconductor.org/developers/how-to/buildingPackagesForBioc)
-- the support site 
+- The support site 
     (https://support.bioconductor.org/)
-- the bioc-devel mailing list 
+- The bioc-devel mailing list 
     (https://stat.ethz.ch/mailman/listinfo/bioc-devel)
 
 
 What do reviewers look for?
 ========================================================
 - BiocCheck (http://www.bioconductor.org/packages/devel/bioc/html/BiocCheck.html)
-- code reuse
-- good documentation - Not good enough if only three people in the world understand it...
+- Code reuse
+- Good documentation - Everyone must understand vignette.
 - Why do people care about how my code looks? (code readability)
 
 
@@ -58,11 +59,21 @@ Should I publish my academic paper or my package 1st?
 
 What to do when it's time to submit your package:
 ========================================================
-- don't panic - the process is meant to help you.
+- Don't panic - the process is meant to help you.
 - Build and check your package (using Bioc 'devel'!)
 
         R CMD build MyPkg
         R CMD check MyPkg_0.99.0.tar.gz
 
-- put packages into the tracker (https://tracker.bioconductor.org/issue558)
-- don't create extra issues for new tarballs 
+- Put packages into the tracker (https://tracker.bioconductor.org/issue558)
+- Don't create extra issues for new tarballs 
+
+
+Acknowledgments
+========================================================
+- Bioconductor is supported in part by these grants: 
+
+    NHGRI / NIH U41HG004059 
+
+    NSF 1247813
+
