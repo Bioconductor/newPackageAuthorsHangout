@@ -43,7 +43,14 @@ Resources for new package authors:
 
 What do reviewers look for?
 ========================================================
-- BiocCheck (http://www.bioconductor.org/packages/devel/bioc/html/BiocCheck.html)
+- BiocCheck (http://bioconductor.org/packages/devel/bioc/html/BiocCheck.html), install as follows:
+
+```
+source("http://bioconductor.org/biocLite.R")
+biocLite("BiocCheck")
+library(BiocCheck)
+```
+
 - Code reuse
 - Good documentation - Everyone must understand vignette.
 - Why do people care about how my code looks? (code readability)
@@ -60,11 +67,14 @@ Should I publish my academic paper or my package 1st?
 What to do when it's time to submit your package:
 ========================================================
 - Don't panic - the process is meant to help you.
-- Build and check your package (using Bioc 'devel'!)
+- Build and check your package (using Bioc '
+[devel](http://www.bioconductor.org/developers/how-to/useDevel/)'!)
 
-        R CMD build MyPkg
-        R CMD check MyPkg_0.99.0.tar.gz
-        R CMD BiocCheck MyPkg_0.99.0.tar.gz
+```
+R CMD build MyPkg
+R CMD check MyPkg_0.99.0.tar.gz
+R CMD BiocCheck MyPkg_0.99.0.tar.gz
+```
         
 - Put packages into the tracker (https://tracker.bioconductor.org/issue558)
 - Don't create extra issues for new tarballs 
